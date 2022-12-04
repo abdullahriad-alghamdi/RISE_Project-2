@@ -3,14 +3,14 @@
 
 ## Table of Contents
 
-* [Instructions](#instructions)
+* [Description](#description)
 * [Contributing](#contributing)
-* [authors](#authors)
-* [contact](#contact)
-* [version](#version)
+* [Authors](#authors)
+* [Contact](#contact)
+* [Version](#version)
 
 
-## Instructions
+## Description
 This is a project for the Udacity Front-End Web Developer Nanodegree. The goal was to build a multi-section landing page, with a dynamically updating navigational menu based on the amount of content that is added to the page. The project was built using HTML, CSS, and JavaScript.
 
 
