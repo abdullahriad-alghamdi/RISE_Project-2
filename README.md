@@ -24,9 +24,9 @@ This is a project for the Udacity Front-End Web Developer Nanodegree. The goal w
 
 ## Contact
 
-* **[LinkedIn]( https://www.linkedin.com/in/abdullah-alghamdi067/)
-* **[Email](mailto: alghamdiabdullah067@gmail.com)
-* **[GitHub](https://github.com/xlizro )
+* [LinkedIn]( https://www.linkedin.com/in/abdullah-alghamdi067/)
+* [Email](mailto: alghamdiabdullah067@gmail.com)
+* [GitHub](https://github.com/xlizro )
 
 ## Version
 
