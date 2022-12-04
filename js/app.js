@@ -19,6 +19,7 @@ let ul = document.getElementById('navbar__list');
 let sections = document.querySelectorAll('section');
 let fragment = document.createDocumentFragment();
 let main = document.querySelector('main');
+let h2Section = document.querySelectorAll('h2');
 
 /*==== END OF SECTION ====*/
 
@@ -40,6 +41,9 @@ function navbar() {
         li.appendChild(a);
 
         fragment.appendChild(li);
+        // updating section header
+        h2Section[i].innerHTML = sections[i].getAttribute('data-nav');
+
     }
     // adding li to ul
     ul.appendChild(fragment);
