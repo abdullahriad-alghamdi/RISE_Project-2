@@ -66,10 +66,6 @@ function active() {
             let link = document.querySelector('a[href="#' + sections[i].getAttribute('id') + '"]');
             // adding class 'active' to the link
             link.classList.add('active');
-
-
-
-
         } else {
             // removing class 'your-active-class' from the section
             sections[i].classList.remove('your-active-class');
@@ -125,23 +121,26 @@ window.addEventListener('scroll', function() {
     Timer = setTimeout(function() {
         // hide the navigation bar
         ul.style.display = 'none';
-    }, 3000); // hiding the navigation bar after 3 seconds
+    }, 4000); // hiding the navigation bar after 3 seconds
 });
 
 /*==== END OF SECTION ====*/
 
-// 1- Adding a scroll to top button on the page that’s only visible when the user scrolls below the fold of the page.
+//* 1- Adding a scroll to top button on the page that’s only visible when the user scrolls below the fold of the page.
+
 // create the button 
 let btn = document.createElement('a');
 // add text to the button
 btn.textContent = '⬆';
 // add class to the button
 btn.classList.add('top');
+// add style to the button  S
 btn.style.cssText = 'padding: 10px; color: black; font-size: 20px; border-radius:3rem; position: fixed; bottom: 180px; left: 1.5em; display: none; z-index: 1000; cursor:pointer; background-color: #fff; ';
 // add the button to the main
 main.appendChild(btn);
 
-//2- add event listener to the button to scroll to the top of the page
+//* 2- add event listener to the button to scroll to the top of the page
+
 btn.addEventListener('click', function() {
     // scroll to the top of the page
     window.scrollTo({
@@ -150,7 +149,8 @@ btn.addEventListener('click', function() {
     });
 });
 
-//3- show the button when the user scrolls below the fold of the page
+//* 3- show the button when the user scrolls below the fold of the page
+
 window.addEventListener('scroll', function() {
     // get the height of the viewport
     let height = window.innerHeight;
