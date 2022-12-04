@@ -5,7 +5,7 @@
 
 * [Description](#description)
 * [Contributing](#contributing)
-* [Authors](#authors)
+* [Author](#authors)
 * [Contact](#contact)
 * [Version](#version)
 
