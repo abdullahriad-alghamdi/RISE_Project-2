@@ -31,3 +31,4 @@ This is a project for the Udacity Front-End Web Developer Nanodegree. The goal w
 ## Version
 
 * **Version 1.0.0**
+* [![Javascript][Javascript.com]][Javascript-url]
