@@ -151,6 +151,7 @@ section {
     color: #fff;
     background-color: rgba(0, 0, 0, 0.769);
     width: fit-content;
+    background-image: url('./Assets/footBackground.png');
     padding: 0.5em;
     margin: 0 auto;
     border-radius: 5px;
