@@ -143,7 +143,7 @@ section {
     background: rgb(42, 59, 51) 0%;
     padding: 2em;
     text-align: center;
-    background-image: url(rawpixel.png);
+    background-image: url("rawpixel.png");
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -237,7 +237,7 @@ section:nth-of-type(3n) .landing__container::after {
     transition: ease 0.5s all;
 }
 
-section:nth-of-type(3n + 1) .landing__container::after {
+section:nth-of-type(3n+1) .landing__container::after {
     content: '';
     background: rgb(255, 255, 255);
     background: linear-gradient(0deg, #bd1550 0%, rgba(164, 14, 14, 0.2) 100%);
