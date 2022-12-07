@@ -17,6 +17,7 @@ body {
     margin: 0;
     font-family: 'Merriweather', serif;
     color: #fff;
+    font-size: 1.2em;
 }
 
 
@@ -150,10 +151,15 @@ section {
 .page__footer p {
     color: #fff;
     background-color: rgba(0, 0, 0, 0.769);
+    width: -moz-fit-content;
     width: fit-content;
     padding: 0.5em;
     margin: 0 auto;
     border-radius: 5px;
+}
+
+.page__footer p span {
+    font-size: 10px;
 }
 
 .page__footer a {
@@ -162,6 +168,10 @@ section {
 
 
 /* ---- Theme Rules ---- */
+
+#subject {
+    height: 200px
+}
 
 
 /* Landing Container Styles */
@@ -249,6 +259,10 @@ section:nth-of-type(3n+1) .landing__container::after {
     border-radius: 50%;
     opacity: 0;
     transition: ease 0.5s all;
+}
+
+#form {
+    margin: 0 auto;
 }
 
 
