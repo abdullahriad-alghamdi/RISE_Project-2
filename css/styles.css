@@ -143,7 +143,6 @@ section {
     background: rgb(42, 59, 51) 0%;
     padding: 2em;
     text-align: center;
-    background-image: url("Assets/footBackground.png");
     background-repeat: no-repeat;
     background-size: cover;
 }
