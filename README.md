@@ -1,6 +1,6 @@
 # Landing Page Project
 ![image](https://user-images.githubusercontent.com/61493052/208415426-c08e8e31-cfa6-4e1f-84ab-56d647aa1932.png)
- project for the Udacity Front-End Web Developer Nanodegree Program.
+ 
 
 ## Table of Contents
 
